@@ -50,5 +50,6 @@ void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
+void swapper(listint_t *lft, listint_t *rt, listint_t **list);
 
 #endif /* SORT_H */
